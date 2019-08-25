@@ -1,0 +1,306 @@
+
+/* Header Implimentation */
+#stuGoHeader {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    color: #000;
+    font-family: "GothamBook", "Helvetica", "Arial", "Sans-serif" !important;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    position: relative;
+    z-index: 1000;
+    background: rgb(153, 24, 46);
+    padding: 1rem 0;
+}
+
+#stuGoHeaderDiv1 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    color: #000;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1170px;
+}
+
+#stuGoHeaderDiv2 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    color: #000;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    border-bottom: none;
+    padding: 0;
+}
+
+#stuGoHeaderDiv3 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    color: #000;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    margin-right: -15px;
+    margin-left: -15px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#stuGoHeaderDiv4 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font-size: 1rem;
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    color: #000;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-weight: normal;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+    width: 66.66666667%;
+    -webkit-box-flex: 1;
+    flex: 1;
+}
+
+#stuGoHeaderDiv5 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #363636;
+}
+
+#stuGoHeaderDiv6 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #363636;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+}
+
+#stuGoHeaderDiv7 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #363636;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    padding: 0 0 25px 0;
+    padding-bottom: 0;
+}
+
+#stuGoHeaderDiv8 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #363636;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+}
+
+#stuGoHeaderDiv9 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #363636;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+}
+
+#stuGoHeaderA1 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    background-color: transparent;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+    float: left;
+    margin-right: 10px;
+    color: #752F8A;
+    border-bottom: 1px solid #752F8A;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+#stuGoHeaderImg1 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #752F8A;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: block;
+    image-rendering: -webkit-optimize-contrast;
+    height: auto;
+    width: 5rem;
+    max-height: 80px;
+    padding-right: .625rem;
+    margin-right: 1.25rem;
+}
+
+#stuGoHeaderImg2 {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    color: #752F8A;
+    -webkit-font-smoothing: antialiased !important;
+    box-sizing: border-box;
+    border: 0;
+    max-width: 100%;
+    vertical-align: middle;
+    display: block;
+    image-rendering: -webkit-optimize-contrast;
+    height: auto;
+    max-height: 80px;
+    width: 7.5rem;
+}
+
+.au-header__text {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    line-height: 1.5;
+    text-rendering: optimizeLegibility;
+    font-style: normal;
+    font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
+    font-size: 0.875rem;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased !important;
+    color: #fff;
+    padding-left: 1rem;
+    margin-left: 5rem;
+    margin-top: 0;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-left-color: #ffffff !important;
+}
+
+
+/* Header Size Implimentation */
+.au-header__brand .au-header__brand-image {
+    display: block;
+    border-style: none;
+    max-width: 64px;
+    max-width: 4rem
+}
+
+.au-header__brand .au-header__brand-image+.au-header__text {
+    margin-top: 16px;
+    margin-top: 1rem
+}
+
+@media (min-width: 1px) {
+    .au-header__brand {
+        min-width: 64px;
+        min-width: 4rem
+    }
+
+    .au-header__brand .au-header__brand-image {
+        float: left;
+        max-width: 64px;
+        max-width: 4rem;
+        margin-right: -64px;
+        margin-right: -4rem
+    }
+
+    .au-header__brand .au-header__brand-image+.au-header__text {
+        padding-left: 16px;
+        padding-left: 1rem;
+        margin-left: 80px;
+        margin-left: 5rem;
+        margin-top: 0;
+        border-left: 1px solid gray
+    }
+
+    .au-header--dark .au-header__brand .au-header__brand-image+.au-header__text {
+        border-left-color: #8093b2
+    }
+}
+
+/* Overwrite size on small screens */
+@media (max-width: 768px) {
+    .au-header__brand .au-header__brand-image {
+        float: left;
+        max-width: 20px;
+        max-width: 2.8rem !important; 
+        margin-right: -64px;
+        margin-right: -4rem
+    }
+
+    .au-header__brand .au-header__brand-image+.au-header__text {
+        padding-left: 16px;
+        padding-left: 1rem;
+        margin-left: 80px;
+        margin-left: 5.1em;
+        margin-top: 0;
+        border-left: 1px solid gray
+    }
+
+    .au-header__text {
+        font-size: 0.7rem
+    }
+}
