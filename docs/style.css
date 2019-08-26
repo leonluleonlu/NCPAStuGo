@@ -40,7 +40,8 @@
     -webkit-font-smoothing: antialiased !important;
     box-sizing: border-box;
     position: relative;
-    background: #8b0000;
+    /* Main heading colour */
+    background: #0c1e2b;
     padding: 1rem 0;
 }
 
@@ -255,7 +256,7 @@
     text-rendering: optimizeLegibility;
     font-style: normal;
     font-family: "GothamBook","Helvetica","Arial","Sans-serif" !important;
-    font-size: 0.875rem;
+    font-size: 0.9rem;
     font-weight: 400;
     -webkit-font-smoothing: antialiased !important;
     color: #fff;
@@ -322,13 +323,13 @@
         padding-left: 16px;
         padding-left: 1rem;
         margin-left: 80px;
-        margin-left: 5.1em;
+        margin-left: 4.5em;
         margin-top: 0;
         border-left: 1px solid gray
     }
 
     .au-header__text {
-        font-size: 0.72rem
+        font-size: 0.8rem
     }
 }
 
@@ -376,7 +377,8 @@
 }
 
 .au-main-nav.au-main-nav--dark {
-    background-color: #620505;
+    /* Navbar side colour */
+    background-color: #e6b619;
     border-color: #fff;
     border-top-color: rgb(255, 255, 255);
     border-right-color: rgb(255, 255, 255);
@@ -385,26 +387,27 @@
 }
 
 .au-main-nav.au-main-nav--dark .au-main-nav__menu {
-    background-color: #620505;
+    /* Navbar container colour */
+    background-color: #e6b619;
 }
 
-.au-main-nav.au-main-nav--dark .au-link-list>li {
-    border-color: #470303;
-}
 
 .au-main-nav.au-main-nav--dark a:hover,
 .au-main-nav.au-main-nav--dark .au-main-nav__toggle:hover {
     color: #fff;
-    background-color: #3a0000
+    /* Navbar item hover colour */
+    background-color: #806304
 }
 
 .au-main-nav.au-main-nav--dark .active a {
     color: #fff;
-    background-color: #8b0000
+    /* Navbar item active colour */
+    background-color: #0c1e2b
 }
 
 .au-main-nav.au-main-nav--dark .active a:hover {
-    background-color: #8b0000
+    /* Navbar item active hover colour */
+    background-color: #021625
 }
 
 .py-0 {
@@ -562,7 +565,8 @@
     font-weight: normal;
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased !important;
-    background: #e47c37;
+    /* Section heading colour */
+    background: #08275f;
     padding: 3rem 0;
 }
 
@@ -721,17 +725,30 @@
     section.sidebar__section {
         margin-bottom: -4.4rem;
     }
+    #sideNavInnerDiv {
+        top: 0px;
+        position: relative;
+        box-shadow: 0 6px 0px rgba(0,0,0,0.19), 0 6px 0px rgba(0,0,0,0.23);
+        -webkit-box-shadow: 0 6px 0px rgba(0,0,0,0.19), 0 6px 0px rgba(0,0,0,0.23);
+    }
 }
 
 .au-side-nav {
     border-radius: 0px
 }
 
+.au-side-nav__content {
+    margin: 0 0px;
+    margin: 0 0rem;
+}
+
 
 /* Footer Implimentation */
 .au-footer.au-footer--dark {
     color: #fff;
+    /* footer border colour */
     border-color: #ce3723;
+    /* footer container colour */
     background-color: #8b0000
 }
 
