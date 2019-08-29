@@ -3,22 +3,65 @@
     width: 85%;
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
     #sg-footer-logo-big {
         display: block;
+        max-width: 220px;
+        margin-top: 10px
     }
     #sg-footer-logo-small {
         display: none;
+    }
+    .sg-credit-right-text {
+        text-align: right;
+    }
+
+}
+
+@media (max-width: 767px) {
+    #sg-footer-logo-big {
+        display: none;
+    }
+    #sg-footer-logo-small {
+        display: block;
+        margin-top: -20px;
+        margin-bottom: 20px;
+        text-align: center
+    }
+    .sg-footer-link-box {
+        text-align: center !important;
+        margin-bottom: 20px;
+
+    }
+    .sg-credit-left-text {
+        text-align: center;
+    }
+    .sg-credit-right-text {
+        text-align: center;
     }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 992px) {
+    .sg-page-main {
+        margin-top: 26px;
+        margin-bottom: 30px
+    }
+}
+
+@media (min-width: 1080px) {
     #sg-footer-logo-big {
-        display: none;
+        margin-left: 20px;
     }
-    #sg-footer-logo-small {
-        display: block;
-    }
+}
+
+.sg-footer-small-image {
+    width: 70px;
+}
+
+.sg-footer-logo-text-small {
+    margin-top: 0px;
+    font-weight: bold;
+    text-decoration: none
 }
 
 
@@ -838,7 +881,7 @@
     
     .au-btn:focus,
     a.au-btn:focus {
-        border-radius: 0
+        border-radius: 4px
     }
     
     .au-btn.au-btn--dark:focus,
