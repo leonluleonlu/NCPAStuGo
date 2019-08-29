@@ -44,7 +44,6 @@
 @media (min-width: 992px) {
     .sg-page-main {
         margin-top: 26px;
-        margin-bottom: 30px
     }
 }
 
@@ -64,8 +63,33 @@
     text-decoration: none
 }
 
+strong {
+    font-weight: 700;
+}
 
+.sg-page-main {
+    margin-bottom: 30px
+}
+.sg-page-main p {
+    padding-bottom: 15px;
+}
 
+.sg-intro-text {
+    font-size: 1.25rem !important;
+}
+
+.sg-inpage-highlight {
+    list-style: none;
+    padding: 0;
+    padding-left: .9375rem;
+    border-left: 3px solid rgb(0, 50, 94);
+    margin-bottom: 1.25rem;
+}
+
+.au-side-nav li.active-trail>a {
+    font-family: "GothamBold";
+    font-weight: bold;
+}
 
 
 
