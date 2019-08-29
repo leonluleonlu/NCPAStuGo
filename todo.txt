@@ -1,5 +1,5 @@
-Replace footer logo
-Fix footer spacing (alignment, colome width)
-Recolour
-Test for component availability
+//Replace footer logo
+//Fix footer spacing (alignment, colome width)
+//Recolour
+//Test for component availability
 Website skeleton
