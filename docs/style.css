@@ -41,7 +41,7 @@
     box-sizing: border-box;
     position: relative;
     /* Main heading colour */
-    background: #0c1e2b;
+    background: rgb(0, 50, 94);
     padding: 1rem 0;
 }
 
@@ -378,7 +378,7 @@
 
 .au-main-nav.au-main-nav--dark {
     /* Navbar side colour */
-    background-color: #e6b619;
+    background-color: rgb(254, 194, 49);
     border-color: #fff;
     border-top-color: rgb(255, 255, 255);
     border-right-color: rgb(255, 255, 255);
@@ -388,7 +388,7 @@
 
 .au-main-nav.au-main-nav--dark .au-main-nav__menu {
     /* Navbar container colour */
-    background-color: #e6b619;
+    background-color: rgb(254, 194, 49);
 }
 
 
@@ -396,18 +396,18 @@
 .au-main-nav.au-main-nav--dark .au-main-nav__toggle:hover {
     color: #fff;
     /* Navbar item hover colour */
-    background-color: #806304
+    background-color: rgb(216, 163, 40);
 }
 
 .au-main-nav.au-main-nav--dark .active a {
     color: #fff;
     /* Navbar item active colour */
-    background-color: #0c1e2b
+    background-color: rgb(0, 50, 94)
 }
 
 .au-main-nav.au-main-nav--dark .active a:hover {
     /* Navbar item active hover colour */
-    background-color: #021625
+    background-color: rgb(0, 41, 76)
 }
 
 .py-0 {
@@ -566,7 +566,7 @@
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased !important;
     /* Section heading colour */
-    background: #08275f;
+    background: #3b539b;
     padding: 3rem 0;
 }
 
@@ -747,9 +747,9 @@
 .au-footer.au-footer--dark {
     color: #fff;
     /* footer border colour */
-    border-color: #ce3723;
+    border-color: rgb(197, 36, 36);
     /* footer container colour */
-    background-color: #8b0000
+    background-color: rgb(150, 25, 25)
 }
 
 /* Focus Overwrite */
